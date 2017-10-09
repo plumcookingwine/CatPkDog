@@ -1,0 +1,95 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "onTouchMonster",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.6,
+  "sample": 5,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "06c85aea-ab89-437e-8571-aecb268a8a17"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "b4d33244-4416-4f3b-a96c-63d71d84870e"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "06c85aea-ab89-437e-8571-aecb268a8a17"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "b4d33244-4416-4f3b-a96c-63d71d84870e"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "06c85aea-ab89-437e-8571-aecb268a8a17"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "b4d33244-4416-4f3b-a96c-63d71d84870e"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "06c85aea-ab89-437e-8571-aecb268a8a17"
+            }
+          },
+          {
+            "frame": 1.4,
+            "value": {
+              "__uuid__": "b4d33244-4416-4f3b-a96c-63d71d84870e"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "y": [
+        {
+          "frame": 0.8,
+          "value": 291
+        },
+        {
+          "frame": 1.4,
+          "value": -509
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": -1
+        },
+        {
+          "frame": 0.8,
+          "value": -1
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 1.4,
+      "func": "onDied",
+      "params": []
+    }
+  ]
+}

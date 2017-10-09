@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "add_score_anim",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.6,
+          "value": 0
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": -0.8
+        },
+        {
+          "frame": 0.6,
+          "value": -1.5
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.8
+        },
+        {
+          "frame": 0.6,
+          "value": 1.5
+        }
+      ]
+    }
+  },
+  "events": []
+}
